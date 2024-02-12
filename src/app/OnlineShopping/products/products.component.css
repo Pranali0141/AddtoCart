@@ -1,0 +1,11 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.product{
+    height: 200px;
+    width: 200px;
+    padding: 10px;
+}

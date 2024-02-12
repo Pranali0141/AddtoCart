@@ -1,0 +1,9 @@
+<div class="container">
+    <div class="products" *ngFor="let item of productlist">
+        <div class="img"><img src="{{item.image}}" style="height: 50px; width: 50px;"></div>
+        <div class="title">{{item.title}}</div>
+        <div class="price">{{item.price}} </div>
+        <button (click)="ADD(item)">ADD</button>
+    </div>
+</div>
+<app-cart-item2></app-cart-item2>

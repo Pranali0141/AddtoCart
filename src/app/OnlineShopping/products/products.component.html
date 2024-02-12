@@ -1,0 +1,10 @@
+<!-- {{ProductList|json}} -->
+
+<div class="container">
+    <div class="product" *ngFor="let item of ProductList1">
+        <div class="img"><img src="{{item.image}}" style="height: 100px; width: 100px;"></div>
+        <div class="title">{{item.title}}</div>
+        <div class="price">{{item.price}}</div>
+        <button style="background-color:brown; border-radius: 20px;" (click)="ADDTOCART(item)">ADD</button>
+    </div>
+</div>

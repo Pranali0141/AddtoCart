@@ -1,0 +1,16 @@
+<table border border-2>
+    <tr>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Price</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let item of products">
+        <td><img src="{{item.image}}" style="height: 50px; width: 50px;"></td>
+        <td>{{item.title}}</td>
+        <td>{{item.price}}</td>
+        <td>
+            <button>Remove</button>
+        </td>
+    </tr>
+</table>
